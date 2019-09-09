@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".pageDeMenu">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo2"
+        android:layout_width="180dp"
+        android:layout_height="180dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_bottom"
+        android:text="@string/ajouter_produits"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_bottom"
+        android:text="@string/retirer_produits"
+        android:textColor="#fff" />
+    <Button
+        android:id="@+id/btn_deconected"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_bottom"
+        android:text="se déconnecter"
+        android:textColor="#fff" />
+</LinearLayout>
